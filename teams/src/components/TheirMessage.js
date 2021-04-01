@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function TheirMessage({ lastMessage, message }) {
   const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== message.sender.username;
@@ -15,4 +15,4 @@ function TheirMessage({ lastMessage, message }) {
   )
 }
 
-export default TheirMessage
+export default TheirMessage;

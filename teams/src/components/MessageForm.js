@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function MessageForm() {
   return (
     <div>
-      MessageForm
+      <h1>Message Form</h1>
     </div>
   )
 }
 
-export default MessageForm
+export default MessageForm;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function MyMessage({message}) {
   if(message?.attachments?.length > 0) {
@@ -19,4 +19,4 @@ function MyMessage({message}) {
   )
 }
 
-export default MyMessage
+export default MyMessage;
